@@ -79,12 +79,12 @@ public class GameManager : MonoBehaviour
                 texto[3].text = camaras.listaCamaras[nCamara].nomeCamara;
 
                 // cambiamos el bool de control para que el usuario pueda realizar otra descarga
-                descarga = true;
+                
 
             }else{
                 Debug.Log("Algo salio mal en la descarga de la imagen");
             }
-
+            descarga = true;
 
         }
     }
